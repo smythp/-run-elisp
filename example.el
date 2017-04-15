@@ -1,6 +1,7 @@
 (defun example (x)
   (* 5 x))
 
-(example 10)
+(princ (example 10))
+(princ "\n")
 
 
